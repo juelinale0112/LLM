@@ -28,3 +28,5 @@ Here's how they work together:
 - The conversation history is maintained in `st.session_state.messages` to display the entire conversation.
 
 In summary, OpenAI is responsible for generating natural language responses, LangChain helps structure the interaction and handles the DataFrame, and Streamlit provides the user interface to upload data and interact with the chat-like interface. Together, they enable users to have a conversational experience with the data using the power of the OpenAI language model.
+
+TO RUN: streamlit run app2.py
